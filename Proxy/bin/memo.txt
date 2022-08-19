@@ -1,5 +1,5 @@
-https://velog.io/@newtownboy/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-%ED%94%84%EB%A1%9D%EC%8B%9C%ED%8C%A8%ED%84%B4Proxy-Pattern
-blog
+blog https://velog.io/@newtownboy/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-%ED%94%84%EB%A1%9D%EC%8B%9C%ED%8C%A8%ED%84%B4Proxy-Pattern
+
 proxy: 대리자, 대변인.
 proxy에게 어떤 일을 대신 시키는 것. 어떤 객체를 사용하고자 할 때, 객체를 직접적으로 참조하지 않고 proxy를 통해 객체에 접근. 객체가 메모리에 존재하지 않아도 기본적인 정보를 참조나 설정할 수 있고, 실제 객체의 기능이 필요한 시점까지 객체의 생성을 미룰 수 있다.
 doAction()메소드 사용.
@@ -16,3 +16,12 @@ doAction()메소드 사용.
 - 가상프록시
 - 원격프록시
 - 보호프록시
+#imageload
+
+youtube GIS DEVELOPER
+proxy를 이용하면 이전과 동일한 데이터가 들어왔을 경우 cache를 이용하는 것처럼 원래 객체를 생성해서 사용하는 대신 proxy를 그대로 출력해 사용할 수 있다 >> 자원 절약.
+#displayprinter
+
+
+대상 객체에 접근하기 전 그 접근에 대한 흐름을 가로채 대상 객체 앞단의 인터페이스 역할을 하는 디자인 패턴.
+user - interface - proxy - interface - main object
