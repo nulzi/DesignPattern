@@ -45,3 +45,5 @@ public class Main {
     System.out.println(cloneRect.draw());
   }
 }
+// RECT(LINE((0 0),(100 0)) LINE((100 0),(100 100)) LINE((100 100),(0 100)) LINE((0 100),(0 0)))
+// RECT(LINE((100 100),(200 100)) LINE((200 100),(200 200)) LINE((200 200),(100 200)) LINE((100 200),(100 100)))

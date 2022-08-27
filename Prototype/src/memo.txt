@@ -5,13 +5,16 @@ prototype: 원형
 
 Youtube GIS DEVELOPER
 
+Code: Draw. shape interface에는 draw와 moveOffSet이라는 메서드가 있고, prototype interface에는 copy 메서드가 있다. 이 둘을 상속 받는 point, line, group. 이 예시는 포토샵에서 그룹을 복사할 때와 비슷한 느낌이다.
+
 실행 중에 생성된 객체로 다른 객체를 생성하는 패턴.
 prototype으로 만든 객체의 상태를 변경해도 원본 객체의 상태는 변경되지 않는다.(깊은 복사)
 
 새로운 클래스를 추가하지 않고도 새로운 개념의 객체를 생성할 수 있다면 프로토타입 패턴을 적용해서 유연성을 발휘할 수 있다.
 
  blog
- Code: Cloneable_Car
+ Code: Cloneable_Car. 차 리스트가 있고 그 리스트들을 clone(깊은 복사)해서 이용하는 것.
+
  코드가 복사해야 하는 구현 클래스에 의존하지 않아야 하는 경우 ex_코드가 인터페이스를 통해 써드파티 코드와 함께 작동할 경우
  객체를 초기화 하는 방식만 달라 서브클래스의 수를 줄이려는 경우 프로토타입 패널을 사용
 
